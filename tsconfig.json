@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outFile": "./Emp/App.js",
+    //  "sourceRoot": "./Emp/**/*.ts",
+      "rootDir": "./Emp/",
+      "sourceMap": false
+    }
+  }

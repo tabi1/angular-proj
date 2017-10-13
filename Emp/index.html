@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Testing</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: #93C3E4">
+    <header style="text-align: center; font-size: 24px;">
+        <h1>Employee Management</h1>
+    </header>
+    
+       
+        <div class="groove divP">
+            <span><label> Name:</label><input type="text" id="nametxt" placeholder="Enter name"></span>
+            
+            <span></style><label>Department:</label>
+                    <span id="deptDropdown"></span></span>
+            
+            <span><label>Status:</label>
+                    <span id="statusDropdown"></span></span>
+           
+            <span><label>Salary:</label><input type="number" id="salarytxt" placeholder="Enter Salary"></span>
+          
+            <span><label>DOJ:</label><input id="date"  type="date"></span>
+        </div>
+        <br>
+        <div style="padding-left: 500px">
+            <button type="submit" id="search" style="align-content: center" class="btnSuccess">Search Employee</button>
+            <button type="reset" id="resetBtn">Reset</button>
+        </div>
+    <div class="padding-top">
+        <div class="container float-left width55perc">
+            <p id="para" style="color: red"></p>
+            <div id="empTable"></div>
+            <br>
+            <input type="button" id="btnAdd" class="float-right" value="Add Employee">
+            <p id="para1" style="color: red"></p>
+            <br>
+            <br>
+        </div>
+        <div id="addForm" class="float-right width35perc solid divP" style="padding-left: 20px" >
+            <p>
+                <label>Name : </label>
+                <input type="text " id="secondName">
+            </p>
+            <p>
+                <label>Department : </label> <span id="secondDept"></span>
+            </p>
+            <p>
+                <label>Status : </label><span id="secondStatus"></span>
+            </p>
+            <p>  
+                <label>Salary : </label><input type="text" id="secondSalary">
+            </p> 
+            <p>
+                <label>DOJ : </label><input type="date" id="secondDate">
+            </p>
+            <p>
+                <button type="button" id="buttonSave" class="button-success">Save</button>
+                <button type="button" id="buttonEdit">Update</button>
+                <button type="button" id="cancelbtn">Cancel</button>
+            </p>
+        </div>
+    </div>
+    <script src="../node_modules/moment/min/moment.min.js "></script>
+    <script src="../node_modules/moment/min/moment-with-locales.min.js "></script>
+    <script src="../node_modules/moment-timezone/builds/moment-timezone.min.js "></script>
+    <script src="../node_modules/moment-timezone/builds/moment-timezone-with-data.min.js "></script>
+    <script src="App.js "></script>
+</body>
+
+</html>

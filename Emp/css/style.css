@@ -1,0 +1,236 @@
+.colorChange{
+    color: "red";
+}
+
+.fontSize{
+    font-size: 20px;
+}
+
+.backgroundColor{
+    background-color: #0FCCCC;
+}
+
+
+.container {
+    width: 100%;
+}
+
+header {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1em;
+    color: white;
+    background-color: #8DC7EE;
+    clear: left;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #5D8CE4;
+    clear: left;
+    text-align: center;
+}
+
+body {
+   padding: 20px 5px; 
+}
+nav {
+    float: right;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.nav-ul {
+    list-style-type: circle;
+    padding: 0;
+}
+img{
+    margin-right: 10px;
+    margin:10px;
+}
+nav ul a {
+    text-decoration: none;
+}
+
+aside{
+    float: right;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    float: left;
+    width: 70px;
+
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.padding {
+    margin:20px,5px;
+    padding: 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.float-left{
+    float:left
+}
+.float-right{
+    float:right;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.width100perc{
+    width: 100%;
+}
+.width55perc{
+    width: 55%;
+}
+.width70perc{
+    width: 70%;
+}
+.width20perc{
+    width: 20%;
+}
+.width35perc{
+    width: 35%;
+}
+.marginBottom{
+    margin-bottom: 20px;
+}
+.btnSuccess{
+    background-color:#A4AFC9;
+}
+.label-font{
+    font-size: 16px;
+    font-family:"Arial, Helvetica, sans-serif";
+}
+body{
+    align-content: center;
+    padding: 0,20px;
+}
+.right-padding{
+    padding-right: 30px;
+}
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(61, 139, 241); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(224, 154, 97); /* this is an orange */
+}
+
+.button-secondary {
+    background: #80ABEB; /* this is a light blue */
+}
+.padding-top {
+    padding-top: 30px
+}
+div.groove {
+    border-style: groove;
+    border-color: #E6C9EC;
+    padding: 20px, 20px
+}
+div.solid {
+    border-style: solid;
+    margin: 5px, 5px;
+    border-color: #6249EE;
+}
+.divP {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 8px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #93C3E4;
+}
+label {
+    width: 82px;
+    font-size: 12px;
+    font-family: Verdana;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.datatable tr.odd
+{
+    background-color:#D6D60E;
+}
+
+.datatable tr.even
+{
+    background-color:#53A7EC;
+}
+.datatable tr:nth-child(odd) {
+    background-color: #93C3E4;
+    color: #000000;
+  }
+ 

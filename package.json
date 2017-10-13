@@ -1,0 +1,17 @@
+{
+  "name": "ts-archi-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "moment-timezone-with-data-2010-2020": "^0.4.0",
+    "moment-with-locales-es6": "^2.18.1"
+  }
+}
